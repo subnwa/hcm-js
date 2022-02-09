@@ -1,9 +1,7 @@
-const chai = require('chai');
-const expect = chai.expect;
+const hcmjs = require('hcm-js');
 
-describe('hcmjs', () => {
-  it('log', () => {
-    expect(logger.log()).to.be.equal(undefined);
-  });
-
-});
+class Class {
+  constructor(log) {
+    this.log = log || new hcmjs.Logger();
+  }
+}
