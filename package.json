@@ -6,6 +6,9 @@
   "directories": {
     "test": "test"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "dependencies": {
     "acorn": "^7.4.1",
     "acorn-jsx": "^5.3.2",
