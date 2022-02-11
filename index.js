@@ -26,6 +26,10 @@ class hcmjs {
     this.console
   }
 
+  api.error(...args) {
+    function.api(error);
+  }
+
 }
 
 module.exports = hcmjs;
