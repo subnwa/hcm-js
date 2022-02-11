@@ -17,6 +17,7 @@ declare class hcmjs{
   level(): number;
   alert(...args: any): void;
   console(...args: any): void;
+  api.error(...args: any): void;
 }
 
 declare const obj: hcmjs;
