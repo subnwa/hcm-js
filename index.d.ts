@@ -18,6 +18,7 @@ declare class hcmjs{
   alert(...args: any): void;
   console(...args: any): void;
   api.error(...args: any): void;
+  api(...args: any): void;
 }
 
 declare const obj: hcmjs;

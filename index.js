@@ -26,8 +26,8 @@ class hcmjs {
     this.console
   }
 
-  api.error(...args) {
-    function.api(error);
+  api(...args) {
+    api.error(console.log("API error."))
   }
 
 }
